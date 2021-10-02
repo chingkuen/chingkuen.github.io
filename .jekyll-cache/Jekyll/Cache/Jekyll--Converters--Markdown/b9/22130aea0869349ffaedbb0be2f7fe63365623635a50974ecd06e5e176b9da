@@ -1,0 +1,47 @@
+I"~<h1 id="git-branch">Git branch</h1>
+
+<p>Reference</p>
+
+<h2 id="建立分支">建立分支</h2>
+
+<ul>
+  <li>
+    <p>git branch [Branch_Name]
+  建立分支，但目前工作目錄維持在自己的分</p>
+  </li>
+  <li>
+    <p>git branch -b [Branch_Name]
+  建立分支，並將目前工作目錄切換到新的分支</p>
+  </li>
+</ul>
+
+<h2 id="切換分支">切換分支</h2>
+
+<ul>
+  <li>git checkout [Branch_Name]
+  切換到其他分支</li>
+</ul>
+
+<h2 id="刪除分支">刪除分支</h2>
+
+<ul>
+  <li>
+    <p>git branch -d [Branch_Name]
+  須先切換到其他分支後，再刪除你這個分支</p>
+  </li>
+  <li>
+    <p>git branch -D [Branch_Name]
+  -D: Shortcut for –delete –force</p>
+  </li>
+</ul>
+
+<h2 id="查看分支">查看分支</h2>
+
+<ul>
+  <li>git branch</li>
+</ul>
+
+<h2 id="detached-head">detached HEAD</h2>
+
+<p>這是一種「目前工作目錄不在最新版」的提示，你可以隨時切換到 Git 儲存庫的任意版本，但是由於這個版本已經有「下一版」，所以如果你在目前的「舊版」執行 git commit 的話，就會導致這個新版本無法被追蹤變更，所以建議不要這麼做</p>
+:ET
