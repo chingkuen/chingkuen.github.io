@@ -1,7 +1,12 @@
 ---
 layout: post
+<<<<<<< HEAD
 title: Git revert
 subtitle: usage of git revert and revevrt commit
+=======
+title: Git branch
+subtitle: usage of git branch and switch branch
+>>>>>>> 55fd9c96d370a5fd4edd950578f12776505da349
 categories: git
 tags: [git]
 ---
