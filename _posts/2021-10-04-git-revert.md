@@ -1,3 +1,10 @@
+---
+layout: post
+title: Git revert
+subtitle: usage of git revert and revevrt commit
+categories: git
+tags: [git]
+---
 # 修正git commit過的版本
 
 ## 重置目前的工作目錄
