@@ -15,7 +15,7 @@ Reference
 - git branch [Branch_Name]
     建立分支，但目前工作目錄維持在自己的分
 
-- git branch -b [Branch_Name]
+- git checkout -b [Branch_Name]
     建立分支，並將目前工作目錄切換到新的分支
 
 ## 切換分支
@@ -34,6 +34,17 @@ Reference
 ## 查看分支
 
 - git branch
+
+> -l/--list: 列出所有分支
+> -a: 列出遠端追蹤分支以及本地分支, 與--list合併使用  
+> -r/--remote: 列出或刪除遠端追蹤分支, 與--list合併使用
+
+## 更名分支
+
+- git branch -m
+
+> -m/--move: 移動/改名分支
+> -M: shortcut for --move --force
 
 ## detached HEAD
 
