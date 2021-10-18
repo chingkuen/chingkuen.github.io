@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Git revert
-subtitle: usage of git revert and revert commit
+title: Git revert and reset
+subtitle: usage of git revert and reset
 categories: git
 tags: [git]
 ---
@@ -42,7 +42,7 @@ tags: [git]
 ## 修改與原本的變更相反
 
 - git revert [commit_id] (-m "message")
-原本修改a變b, 會改成b變回a, 並且直接建立commit版本 <br>
+原本修改a變b, 會改成b變回a, 並且直接建立commit版本  
 Note: 發生衝突時，需先修改後執行git add
   - git revert --continue
 
@@ -50,6 +50,6 @@ Note: 發生衝突時，需先修改後執行git add
   
   - git revert --skip
   
-  - git revert -n
-  <br>不直接建立commit版本
+  - git revert -n  
+ 不直接建立commit版本
   
