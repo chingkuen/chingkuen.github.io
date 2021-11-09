@@ -96,8 +96,8 @@ def amount(self, n):
 
 ```Python
 @staticmethod
-    def quote():
-        print(f'肉圓一個{Order.__price}元,加不加醬講清楚!')
+def quote():
+    print(f'肉圓一個{Order.__price}元,加不加醬講清楚!')
 ```
 
 - **_類別__屬性名稱**依舊可以改變
