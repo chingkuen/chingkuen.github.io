@@ -3,7 +3,7 @@ layout: post
 title: Python Flask
 subtitle: Python Flask
 categories: python
-tags: [python][flask]
+tags: [python]
 ---
 # Python Flask
 
