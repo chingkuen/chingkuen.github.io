@@ -118,7 +118,7 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0',port='5000',debug=True)
 ```
 
-```html
+<!-- ```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -148,7 +148,7 @@ if __name__ == '__main__':
     {% endif %}
 </body>
 </html>
-```
+``` -->
 
 Flask:  
 > @app.route('/',methods=['POST','GET'])  
