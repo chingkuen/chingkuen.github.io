@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Python with Json
-subtitle: Python with Json
+title: Python Virtual Enviroment
+subtitle: Python Virtual Enviroment
 categories: python
 tags: [python]
 ---
