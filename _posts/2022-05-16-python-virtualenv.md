@@ -10,11 +10,27 @@ tags: [python]
 
 ## Install Virtual Enviroment
 
+- 1st way
+
 ```python
 pip3 install virtualenv
 ```
 
+- 2nd way
+
+```python
+apt install python3.10-venv
+```
+
 ## Create the Virtual Enviroment
+
+- 1st way
+
+```python
+virtualenv --python py <myenv>
+```
+
+- 2nd way
 
 ```python
 python -m venv <Virtual Enviroment Name>
@@ -24,7 +40,7 @@ It will create a folder with the designated name.
 Then go into this directory.
 
 ```python
-source <Virtual Enviroment Name>/bin/activate
+source bin/activate
 ```
 
 It will add (Virtual Enviroment Name) in the beginning of the prompt.
