@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Python Thread
-subtitle: Python Thread
+title: Python Queue
+subtitle: Python Queue
 categories: python
 tags: [python]
 ---
